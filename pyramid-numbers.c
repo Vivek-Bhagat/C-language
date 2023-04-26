@@ -8,7 +8,7 @@ int main()
     // to print the number of rows using for loop
     for (i = 1; i <= num; i++)
     {
-
+ 
         // to print the spaces in the pyramid
         for (j = 1; j <=(num - i); j++)
         {
