@@ -1,4 +1,1 @@
-int add(int x, int y)
-// {
-//     return printf("%*c%*c", x, ' ', y, ' ');
-// }
+ for (i = 0; i < n; i++)
