@@ -46,9 +46,10 @@ int main()
     scanf("%d", &n);
 
     // Ask the user to enter the elements of the array
-    printf("Enter the elements of the array: ");
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++){
+        printf("Enter the %d element :", i+1);
         scanf("%d", &arr[i]);
+    }
 
     // Print the original array
     printf("Original array: \n");
