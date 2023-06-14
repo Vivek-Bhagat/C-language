@@ -3,14 +3,14 @@
 
 int fun(int n)
 {
-    if(n ==1)
+    if(n ==0)
     return 1;
     else
-     return 1 + fun(n-1);
+     return 7 + fun(n-2);
 }
 int main()
 {
-    int n=1;
-    printf("%d", fun(n));
+    // int n=1;
+    printf("%d", fun(4));
     return 0;
 }
