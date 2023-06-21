@@ -1,3 +1,6 @@
+
+// ! Time complexity is (0)^log n
+
 #include <stdio.h>
 #include <stdlib.h>
 
