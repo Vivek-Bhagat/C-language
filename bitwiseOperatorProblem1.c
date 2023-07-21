@@ -26,13 +26,13 @@ void calculate_the_maximum(int n, int k)
             max_xor = XOR;
         }
     }
-    printf("%d %d %d", max_and, max_or, max_xor);
+    printf("max_and : %d\nmax_or  : %d\nmax_xor : %d", max_and, max_or, max_xor);
 }
 
 int main()
 {
     int n, k;
-
+    printf("Enter the two number :");
     scanf("%d %d", &n, &k);
     calculate_the_maximum(n, k);
 

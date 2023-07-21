@@ -1,9 +1,8 @@
 // Sure, I can help you with that.Here is a possible program in C programming language to sort an array using bubble sort algorithm :
 
 #include <stdio.h>
-    // A function to swap two elements
-    void
-    swap(int *a, int *b)
+// A function to swap two elements
+void swap(int *a, int *b)
 {
     int temp = *a;
     *a = *b;
